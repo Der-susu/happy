@@ -38,7 +38,7 @@ $('document').ready(function () {
 
     var audio; vw = $(window).width() / 2;
     console.log(vw,$(window).width());
-    var time = 5000;
+    var time = 1500;
     $('#play2').click(function () {
         audio = $('.song')[0];
         audio.play();
